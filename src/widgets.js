@@ -11,3 +11,12 @@ async function createWidget({ name }) {
 }
 
 module.exports = { listWidgets, createWidget };
+
+async function deleteWidget(id) {
+  const idx = store.findIndex((w) => w.id === id);
+  if (idx === -1) return false;
+  store.splice(idx, 1);
+  return true;
+}
+
+module.exports.deleteWidget = deleteWidget;
