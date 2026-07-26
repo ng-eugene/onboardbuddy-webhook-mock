@@ -1,0 +1,5 @@
+# onboardbuddy-webhook-mock
+
+Disposable test fixture. A tiny Express API used only to exercise
+OnboardBuddy's GitHub push-webhook auto re-analysis feature end to end.
+Safe to delete once webhook testing is done.

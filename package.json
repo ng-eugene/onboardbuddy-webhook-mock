@@ -1,0 +1,8 @@
+{
+  "name": "onboardbuddy-webhook-mock",
+  "version": "0.1.0",
+  "description": "Disposable mock app for testing OnboardBuddy's push-webhook auto re-analysis feature.",
+  "main": "src/server.js",
+  "scripts": { "start": "node src/server.js" },
+  "dependencies": { "express": "^4.19.2" }
+}
