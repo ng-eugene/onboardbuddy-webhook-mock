@@ -20,3 +20,12 @@ async function deleteWidget(id) {
 }
 
 module.exports.deleteWidget = deleteWidget;
+
+async function renameWidget(id, name) {
+  const widget = store.find((w) => w.id === id);
+  if (!widget) return null;
+  widget.name = name;
+  return widget;
+}
+
+module.exports.renameWidget = renameWidget;
