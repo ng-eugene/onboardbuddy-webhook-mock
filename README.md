@@ -6,3 +6,5 @@ Safe to delete once webhook testing is done.
 
 ## Widgets API
 Minimal CRUD-ish surface for testing analysis diffing.
+
+Race-test marker: trivial follow-up commit.
